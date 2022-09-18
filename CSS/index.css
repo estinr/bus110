@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;700&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto';
+    font-size: large;
+    color: orange;
+    background-color: #222;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 1.1rem;
+    background-color: slategray;
+    box-shadow: 0 5px 16px black;
+    justify-content: flex-start;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 900px;
+    min-height: 800px;
+    margin-inline: auto;
+    border: 2px solid silver;
+    gap: 1rem;
+    flex-wrap: wrap;
+    box-shadow: 0 0 8px white;
+    border-radius: 32px;
+    background-color: #333;
+
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    min-width: 600px;
+    height: 80px;
+    background-color: #069;
+    border: 1px solid #222;
+    border-radius: 22px;
+}
+
+a {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+a:link {
+    color: lime;
+    text-decoration: none;
+}
+
+a:active {
+    color: slateblue;
+}
+
+a:hover {
+    color: black;
+    text-decoration: underline;
+}
