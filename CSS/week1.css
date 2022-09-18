@@ -37,7 +37,7 @@ footer {
     align-items: flex-start;
     align-content: flex-end;
     max-width: 900px;
-    min-height: 800px;
+    min-height: 600px;
     margin-inline: auto;
     border: 2px solid silver;
     gap: .5rem;
