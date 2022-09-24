@@ -7,9 +7,10 @@
 }
 
 body {
+    min-height: 100vh;
     font-family: 'Roboto';
     font-size: large;
-    color: orange;
+    color: aliceblue;
     background-color: #222;
 }
 
@@ -18,60 +19,60 @@ header {
     align-items: center;
     flex-direction: column;
     padding: 1.1rem;
+    color: rgba(255,190,0,.7);
     background-color: slategray;
-    box-shadow: 0 5px 16px black;
-    justify-content: flex-start;
+    box-shadow: 0 9px 16px rgba(255, 190, 0, 0.7);
 }
 
 footer {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+    position: fixed;
+    bottom: 0;
+    left: calc(50vw - 168.9765px);
+    color: orange;
     font-weight: bold;
+    text-align: center;
 }
+
 
 .container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    margin: 0 auto;
+    position: relative;
+    top: 150px;
     max-width: 900px;
-    min-height: 800px;
-    margin-inline: auto;
+    min-height: 50vh;
     border: 2px solid silver;
-    gap: 1rem;
     flex-wrap: wrap;
-    box-shadow: 0 0 8px white;
+    box-shadow: 0 0 10px white;
     border-radius: 32px;
     background-color: #333;
-
+    padding-inline: 2%;
+    font-size: larger;
 }
 
-div {
+.week {
     display: flex;
     flex-direction: column;
+    align-items: center;
     justify-content: center;
-    align-content: center;
-    min-width: 600px;
     height: 80px;
     background-color: #069;
     border: 1px solid #222;
     border-radius: 22px;
+    text-align: center;
+    margin: 3%;
+    font-size: 3rem;
 }
 
-div.week {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.week:hover {
+    transition: 200ms, text-shadow 850ms;
+    background-color:rgba(0, 102, 153, 0.707);
+    color: #222;
+    text-shadow: 0 0 6px orange;
 }
 
 a {
-    display: flex;
-    align-content: center;
-    justify-content: center;
-    align-items: center;
-    font-size: 2rem;
     font-weight: bold;
+    color: lightblue;
 }
 
 a:link {
@@ -80,10 +81,8 @@ a:link {
 }
 
 a:active {
-    color: slateblue;
+    color: aliceblue;
 }
 
-a:hover {
-    color: black;
-    text-decoration: underline;
-}
+
+
