@@ -39,7 +39,7 @@ footer {
     position: relative;
     top: 150px;
     max-width: 900px;
-    min-height: 50vh;
+    min-height: 60vh;
     border: 2px solid silver;
     flex-wrap: wrap;
     box-shadow: 0 0 10px white;
