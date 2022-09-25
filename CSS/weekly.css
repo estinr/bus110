@@ -25,10 +25,12 @@ header {
 }
 
 footer {
-    position: absolute;
+    position: fixed;
     bottom: 0;
-    left: 500px;
+    left: calc(50vw - 168.9765px);
+    color: orange;
     font-weight: bold;
+    text-align: center;
 }
 
 .container {
