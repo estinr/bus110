@@ -21,7 +21,7 @@ header {
     padding: 1.1rem;
     color: rgba(255,190,0,.7);
     background-color: slategray;
-    box-shadow: 0 9px 16px rgba(255, 190, 0, 0.7);
+    box-shadow: 0 9px 16px black;
 }
 
 footer {
@@ -47,6 +47,7 @@ footer {
     background-color: #333;
     padding-inline: 2%;
     font-size: larger;
+    padding: 2%;
 }
 
 .week {

@@ -18,10 +18,10 @@ header {
     align-items: center;
     flex-direction: column;
     padding: 1.1rem;
-    color: orange;
+    color: rgba(255,190,0,.7);
     background-color: slategray;
-    box-shadow: 0 5px 16px black;
     justify-content: flex-start;
+    box-shadow: 0 5px 16px black;
 }
 
 footer {
@@ -32,11 +32,11 @@ footer {
 }
 
 .container {
-    margin: auto;
+    margin: 0 auto;
     position: relative;
     top: 150px;
     max-width: 900px;
-    min-height: 800px;
+    min-height: 50vh;
     border: 2px solid silver;
     gap: .5rem;
     flex-wrap: wrap;
@@ -47,6 +47,7 @@ footer {
     padding-inline: 2%;
     font-size: larger;
     line-height: 32px;
+    padding: 2%;
 }
 
 p {
@@ -59,10 +60,10 @@ div.container h2 {
 }
 
 footer {
-    position: absolute;
+    position: fixed;
     bottom: 0;
-    left: 500px;
+    left: calc(50vw - 168.9765px);
+    color: orange;
     font-weight: bold;
     text-align: center;
-    margin: auto;
 }
