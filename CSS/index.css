@@ -47,7 +47,7 @@ footer {
     background-color: #333;
     font-size: larger;
     padding: 2%;
-    /* box-shadow: 0 0 10px white; */
+    box-shadow: 0 0 10px white;
 }
 
 .week {
@@ -68,7 +68,6 @@ footer {
     transition: 200ms, text-shadow 850ms;
     background-color:rgba(0, 102, 153, 0.504);
     color: #222;
-    /* text-shadow: 0 0 6px orange; */
 }
 
 a {
@@ -82,7 +81,7 @@ a:link {
 }
 
 a:active {
-    color: aliceblue;
+    color: orange;
 }
 
 
