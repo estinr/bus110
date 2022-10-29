@@ -70,36 +70,28 @@ footer {
 
 }
 
-.week:hover {
-    transition: 200ms, text-shadow 850ms;
-    background-color:rgba(0, 102, 153, 0.504);
-    color: #222;
-}
-
-
-.future:hover {
-    cursor: not-allowed;
-}
-
-a {
-    font-weight: bold;
-    color: lightblue;
+.future {
+    color: black;
+    opacity: 0.4;
+    pointer-events: none;
 }
 
 a:link {
-    color: white;
+    font-weight: bold;
     text-decoration: none;
+    color: lightblue;
+}
+
+.week:hover {
+    transition: 200ms, text-shadow 850ms;
+    background-color:rgba(0, 102, 153, 0.504);
+    color: rgb(255, 162, 0, .7);
 }
 
 a:active {
     color: orange;
 }
 
-.highlight {
-    border: 2px solid orange;
-    border-radius: 22px;
-}
-
-.highlight {
-    color: orange;
+a:visited {
+    color: rgba(187, 187, 187, 0.856);
 }
