@@ -25,7 +25,7 @@ header {
 }
 
 footer {
-    position: fixed;
+    position: static;
     bottom: 0;
     left: calc(50vw - 168.9765px);
     color: orange;
